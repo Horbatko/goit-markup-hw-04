@@ -83,9 +83,11 @@ span{
 .nav-ul{
     display: flex;
     gap:40px;
+    
 }
 
 .nav-li-a{
+    
     padding: 24px 0;
     display: block;
 
@@ -97,12 +99,22 @@ span{
     color:#2e2f42;
 }
 
+.nav-li:hover{
+    content:"";
+    width: 100%;
+    height: 4px;
+    bottom:44px;
+    border-radius: 2px;
+    background-color:#404bbf;
+}
+
 .nav-li-a:hover{
-    color:#404bbf
+    color:#404bbf;
+
 }
 
 .nav-li-a:focus{
-    color: #404bbf 
+    color: #404bbf;
 }
 
 .addr{
@@ -145,13 +157,14 @@ span{
   /*SECTION 1*/
 
 .sect_one{
-    background-color: #2E2F42;
     padding: 188px 0;
     display: flex;
     align-items: end;
-    
-}
 
+    background-image:
+    url(/images/people-office\ 1.jpg);
+    /*rgba(46, 47, 66, 0.7)*/
+}
 .sect_one-title{
     max-width: 496px;
     margin: 0 auto;
@@ -232,6 +245,18 @@ span{
     padding:0;
 }
 
+.sect_two-svg{
+
+}
+
+.sect_two-img{
+    width: 64px;
+    height: 64px;
+    top: 24px;
+    left: 100px;
+    padding: 0px 2px 0px 2px;
+    position:relative;
+}
 
 li:last-child{
     margin-right: 0;
@@ -241,6 +266,16 @@ li:last-child{
 .sect_two-li{
     flex-basis: calc((100% - 3 * 24px) / 4);
     
+}
+
+.sect_two-svg{
+    background-color: #F4F4FD;
+
+    border: 1px  solid #8E8F99;
+    border-radius: 4px;
+    width: 100%;
+    height: 112px;
+    margin-bottom: 8px;
 }
 
 h3{
@@ -298,9 +333,32 @@ h3{
     border-radius: 0px 0px 4px 4px;
 }
 
-.sect_three-img{
-    
+.sect_three-ul-svg{
+    display: inline-flex;
+   margin: 0 16px;
+   gap:24px;
+   margin-bottom: 32px;
 }
+
+.icon {
+    
+    color: #F4F4FD;
+    width: 16px;
+    height: 16px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+
+.sect_three-svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+ }
 
 .people-box{
     padding: 32px 0;
@@ -363,10 +421,21 @@ h3{
     flex-basis: calc((100% - 48px) / 3);
 }
 
+.face-box:hover{
+    border: 1px solid #F4F4FD;
+    box-shadow: 0px 2px 1px 0px #2E2F4214;
+    box-shadow: 0px 1px 1px 0px #2E2F4229;
+    box-shadow: 0px 1px 6px 0px #2E2F4214;
+
+    background:no-repeat url(/images/Finger.svg)  ;
+    background-position: 95% 90%;
+}
+
 .face-box{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    
 }
 
 .sect_four-ul-title{
@@ -397,6 +466,10 @@ h3{
    
 }
 
+.one-box{
+    display: block;
+}
+
 .footer-title{
     
     display: inline-block;
@@ -423,4 +496,35 @@ h3{
     font-weight: 400;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+}
+
+.two-box{
+    margin-left: 120px;
+    position: absolute;
+    right: 692px;
+    top:3256px;
+}
+
+.Social-media {
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+.footer-items {
+    display: inline-flex;
+   gap:16px;
+   
+
+   
+}
+.footer-li {
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    color: #F4F4FD;
+    flex-shrink: 0;
+
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
 }
