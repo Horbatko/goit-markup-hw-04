@@ -360,10 +360,10 @@ h3{
 
 .sect_three-ul-svg{
     display:flex;
-    padding: 32px 0;
     gap:24px;
-    margin-bottom: 32px;
+    margin-top: 8px;
     justify-content: center; 
+
 }
 
 .sect_three-svg{
@@ -401,7 +401,7 @@ h3{
 
 
 .people-box{
-    
+    padding: 32px 0;
 }
 
 .sect_three-ul-title{
