@@ -431,7 +431,8 @@ h3{
 
 /* sect4*/
 .sect_four{
-    padding-top: 120px; padding-bottom: 120px;
+    padding-top: 120px; 
+    padding-bottom: 120px;
 }
 
 .sect_four-title{
@@ -462,13 +463,15 @@ h3{
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.sect_four-li:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
+}
+
 .face-box:hover{
     border: 1px solid #F4F4FD;
-
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     background:no-repeat url(/images/Finger.svg)  ;
     background-position: 95% 90%;
-    transform: translateY(0%);
 }
 
 .face-box{
@@ -543,9 +546,6 @@ h3{
     font-weight: 400;
     color: #F4F4FD;
     letter-spacing: 0.02em;
-}
-
-.two-box{
 }
 
 .Social-media {
