@@ -594,10 +594,25 @@ h3{
     justify-content: center;
    align-items: center;
     color: #F4F4FD;
-    
-
     width: 40px;
     height: 40px;
-    background-color: #4D5AE5;
+}
+
+.footer-massenger-link{
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+}
+
+.footer-massenger-link:hover{
+    background-color: #31d0aa;
+}
+
+.footer-massenger-link:focus{
+    background-color: #31d0aa;
 }
