@@ -542,7 +542,7 @@ h3{
 }
 
 .one-box{
-    display: block;
+
     margin-right: 120px
 }
 
@@ -582,10 +582,11 @@ h3{
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px; 
+    font-size: 16px;
 }
 .footer-items {
     display: flex; 
-   gap:16px;
+    gap:16px;
 }
 
 .footer-li {
