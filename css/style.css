@@ -484,8 +484,11 @@ h3{
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.sect_four-top-text:hover{
+.sect_four-li:hover{
+    width: calc((100% - 48px) / 3);
     transform: translateY(0%);
+    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
 }
 
 .face-box{
@@ -519,11 +522,6 @@ h3{
     font-family:"Roboto", sans-serif;
     color: #434455;
     letter-spacing: 0.02em;
-}
-
-.sect_four-ul-text:hover{
-   
-    
 }
 
 /*FOOTER*/
