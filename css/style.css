@@ -87,6 +87,10 @@ span{
     
 }
 
+.nav-li-a:first-child{
+    color:#404bbf;
+}
+
 .nav-li{
     
 }
