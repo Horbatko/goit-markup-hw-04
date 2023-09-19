@@ -487,7 +487,7 @@ h3{
     transform: translateY(100%); 
     height: 100%; 
     width: 100%;
-    transition:250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
 
 .sect_four-li:hover .sect_four-top-text {
@@ -615,3 +615,4 @@ h3{
 .footer-massenger-link:focus{
     background-color: #31d0aa;
 }
+
