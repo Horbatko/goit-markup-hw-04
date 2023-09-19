@@ -541,7 +541,7 @@ h3{
    
 }
 
-.main-box-container{
+.main-box container{
     display: flex;
     align-items: baseline;
     margin-right: 120px;
